@@ -1,0 +1,25 @@
+// variables for defining font family
+$roboto-regular: "Roboto-Regular";
+
+// variables for defining font size
+$font-size-content: 18px;
+$font-size-title: 50px;
+
+// variables for defining colors
+$blue: #00b8f1;
+$lightgray: #D3D3D3;
+$white: #fff;
+$black: #000;
+
+//responsive devices
+$phone : '(max-width: 480px)';
+$tablet-portrait: '(max-width: 767px)';
+$tablet-landscape: '(min-width: 768px) and (max-width: 992px)';
+$large-desktop: '(min-width: 1200px)';
+//$non-retina: 'screen and (-webkit-max-device-pixel-ratio: 1)';
+//$retina: '(min--moz-device-pixel-ratio: 1.5), 
+//                    (-o-min-device-pixel-ratio: 3/2), 
+//                    (-webkit-min-device-pixel-ratio: 1.5), 
+//                    (min-device-pixel-ratio: 1.5), 
+//                    (min-resolution: 144dpi), 
+//                    (min-resolution: 1.5dppx)';

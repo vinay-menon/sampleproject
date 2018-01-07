@@ -1,0 +1,86 @@
+/* slider, headings,social media icons, sliding image,slide preview*/
+.slider{
+    background-color: $white;
+    padding-top: 40px;
+}
+.first-head{
+    font-size: 40px;
+    color: darken($blue, 20%);
+}
+.second-head{
+    font-size: 20px;
+    font-weight: bold;
+}
+.social-media-icons{
+    float: right;
+    padding-top: 10px;
+    
+}
+.custom-icon {
+    background: lighten($black, 30%);
+    background: $blue;
+    border-radius: 100%;
+    color: $white;
+    display: table-cell;
+    font-size: 45px;
+    height: 45px;
+    padding: 6px;
+    text-align: center;
+    transition: .5s;
+    vertical-align: middle;
+    width: 45px;
+}
+.social-icons{
+    font-size: 30px;
+    padding-left: 10px;
+}
+.icon-color{
+    color: $blue;
+}
+/* slider image, slider img prev */
+.slide-holder{
+    padding-top: 10px;
+}
+.slide-img-prev-holder{
+    padding-top: 20px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.slide-prev-img{
+    padding: 0 ;
+    height: 150px;
+}
+
+/* prev next button */
+.go-prev,
+.go-next {
+		position: absolute;
+		top: 60%;
+		left: 50px;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		margin: 0;
+		height: 40px;
+		width: 40px;
+		cursor: pointer;
+		background-color: rgba(0, 0, 0, 1);
+		border-radius: 3px;
+		z-index: 15;
+}
+.go-next {
+		left: 95%;
+}
+
+.go-prev i,
+.go-next i {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+		-webkit-transform: translate(-50%, -50%);
+		color: white;
+}
+.slider-prefix-text{
+    padding-top: 10px;
+    background: lighten($lightgray, 10%);
+}

@@ -1,0 +1,86 @@
+/* info block second , check box, labels, buttons*/
+.info-block-second {
+    background-color: lighten($lightgray, 10%);
+    margin-top: 10px;
+    border-bottom: 1px dotted darken($blue, 15%);
+    padding-bottom: 50px;
+    font-family: $roboto-regular;
+
+}
+.info-block-second-content {
+    padding-top: 30px;
+    ul {
+        padding-left: 0;
+        li {
+            list-style: none;
+        }
+    }
+}
+.checkbox-icon:before {
+    font-size: 30px;
+    position: absolute;
+    padding-top: 5px;
+}  
+p.head {
+    font-size: 20px;
+}
+.icon {
+    position: relative;
+}
+.icon-text { 
+    padding-left: 35px;
+    font-size: 20px;       
+}
+.info-block-button-holder{
+    padding-top: 40px;
+}
+.info-block-button-one {
+
+}
+
+.first-button {
+    @include button-bg($lightgray);
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+    height: 50px; 
+    span{
+        font-size: 20px;
+        color: $black;
+        font-weight: bold;
+        font-family: $roboto-regular;
+    }
+}
+.second-button {
+    @include button-bg(darken($blue, 15%));
+    border-radius: 10px;
+    border: none;
+    width: 100%;
+
+    height: 50px;
+    span{
+        font-size: 20px;
+        color: $white;
+        font-weight: bold;
+        font-family: $roboto-regular;
+    }
+}
+.icon-first::before{
+    color: $black;
+    padding-right: 10px;
+    font-size: 20px;
+}
+.icon-second::before{
+    color: $white;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+@include respond-to($phone) {
+    .info-block-second {
+        font-size: 16px;
+    }
+    .info-block-button-two {
+        padding-top: 10px;
+    }
+}

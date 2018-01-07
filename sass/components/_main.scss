@@ -1,0 +1,22 @@
+body {
+    background-color: darken($lightgray,5%);
+}
+.container {    
+  margin: 0 auto;
+  @include respond-to($large-desktop) {
+    max-width: 1004px;
+  }
+  @include respond-to($tablet-portrait) {
+    max-width: 637px;
+      width: 100%;
+  }
+  @include respond-to($tablet-landscape) {
+    max-width: 824px;
+      width: 100%;
+  }
+  @include respond-to($phone) {
+    max-width: 320px;
+      width: 100%;
+  }
+}
+ 

@@ -1,0 +1,37 @@
+footer{
+    background-color: $white;
+}
+.footer-menu{
+    padding-right: 10px;
+    ul{   
+        float: right;
+        padding-right: 30px;
+        padding-top: 15px;
+
+        li{
+            padding-left: 60px;
+            list-style: none;
+            float: left;
+            a{
+                color: darken($blue, 15%);
+                font-size: 14px;
+
+            }
+        }
+    }
+}
+
+
+@include respond-to($phone) {
+    .footer-menu{
+        ul{
+            padding-right: 10px;
+            float: left;
+            padding-left: 0;
+            li{
+                padding-left: 15px;
+            }
+        }
+    }
+}
+    

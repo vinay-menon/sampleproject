@@ -1,0 +1,26 @@
+/* website information includes info block first, info-block first title, bottom boredr,icons  */
+.info-block-first{
+    background-color: lighten($lightgray, 10%);
+    font-family: $roboto-regular;
+}
+.info-block-first-title{
+    font-size: $font-size-title;  
+}
+.border{
+    border-bottom: 1px dotted darken($blue, 10%);
+}
+.info-block-first-content{
+    padding-top: 20px;
+    font-size: $font-size-content;
+    color: darken($blue,20%);
+    font-weight: bold;
+}
+.info-icons:before{
+    padding-right: 15px;
+    color: $blue;
+}
+.info-speed-date{
+    padding-left: 45px;
+    font-size: $font-size-content;
+    padding-bottom: 30px;
+}
